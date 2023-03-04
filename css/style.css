@@ -110,7 +110,7 @@ a:hover{
 }
 .search{
     position: absolute;
-    top: 22%;
+    top: 28%;
     right: 10%;
     width: 400px;
     height: 570px;
@@ -225,7 +225,7 @@ a:hover{
     font-weight: 500;
     margin-top: 15px;
 }
-
+ 
 .main-title h1 {
     font-size: 33px;
     font-weight: 700;
@@ -466,7 +466,14 @@ a:hover{
   .fh5co-card-item:hover h2, .fh5co-card-item:hover span, .fh5co-card-item:focus h2, .fh5co-card-item:focus span {
     text-decoration: none !important;
   } 
-   
+  .readmorebtn{
+    position: absolute;
+    bottom: 50px;
+    z-index: 50;
+    left: 100px;
+    height:10px
+  }
+  
   
 @media (max-width: 993px) {
     .head1{
@@ -530,14 +537,14 @@ a:hover{
     .featured-items .owl-nav .owl-prev {
         position: absolute;
         left: 110px;
-        top: 220px;
+        top: 300px;
          
       }
       
       .featured-items .owl-nav .owl-next {
         position: absolute;
         right: 100px;
-        top: 220px;
+        top: 300px;
       }
       .featured-items .owl-nav .owl-prev span {
         border-radius: 60px 0 0 60px;
@@ -546,5 +553,8 @@ a:hover{
       .featured-items .owl-nav .owl-next span{
         border-radius: 0 60px 60px 0;
         height: 31px;
+      }
+      .readmorebtn{
+        left: 90px;
       }
 }
