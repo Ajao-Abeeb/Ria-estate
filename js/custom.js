@@ -1,3 +1,5 @@
+
+
 $(".range-slider-ui").each(function () {
     var minRangeValue = $(this).attr('data-min');
     var maxRangeValue = $(this).attr('data-max');
@@ -67,7 +69,7 @@ $(document).ready(function()
               items:2
           },
           1000:{
-              items:4
+              items:3
           }
       }
   })
@@ -94,18 +96,7 @@ $('.owl-features').owlCarousel({
 
 
 })
-// let backtotop = select('.back-to-top')
-// if (backtotop) {
-//   const toggleBacktotop = () => {
-//     if (window.scrollY > 100) {
-//       backtotop.classList.add('active')
-//     } else {
-//       backtotop.classList.remove('active')
-//     }
-//   }
-//   window.addEventListener('load', toggleBacktotop)
-//   onscroll(document, toggleBacktotop)
-// }
+
 
  //    * Preloader
  let loader = document.getElementById('preloader')
