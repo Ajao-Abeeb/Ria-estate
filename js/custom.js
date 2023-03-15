@@ -103,3 +103,11 @@ $('.owl-features').owlCarousel({
 setTimeout(()=>{
     loader.remove();
 }, 2000); 
+
+
+// function id(){
+//     setTimeout(load,3000).foreach(function load(){
+//         document.querySelector('#preloader').remove()
+//     })
+// }
+ 
