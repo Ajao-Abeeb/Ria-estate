@@ -38,7 +38,7 @@ $(".range-slider-ui").each(function () {
 });
 $(document).ready(function()
 {
- $("#top-sale .owl-carousel").owlCarousel({
+ $(".owl-executive").owlCarousel({
     loop:true,
     nav:true,
     dots:false,
@@ -50,7 +50,7 @@ $(document).ready(function()
             items:3
         },
         1000:{
-            items:5
+            items:4
         }
     }
  })

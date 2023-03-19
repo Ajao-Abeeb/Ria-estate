@@ -62,6 +62,7 @@ a:hover {
 #backtotop {
   color: #FFFFFF;
   background-color: green;
+  overflow: hidden;
 }
 
 #backtotop {
@@ -1302,7 +1303,9 @@ small {
   padding-left: 20px;
 }
 .about-house .owl-nav .owl-next span,
-.about-house .owl-nav .owl-prev span {
+.about-house .owl-nav .owl-prev span,
+.executive .owl-nav  .owl-next span,
+.executive .owl-nav  .owl-prev span{
   display: none;
 }
 .about-box{
@@ -1329,8 +1332,122 @@ small {
 .about-box  .owl-nav .owl-next span,
 .about-box .owl-nav .owl-prev span {
   display: none;
+  
+}
+
+.executive .owl-carousel .owl-item img{
+  width: 255px;
+  height: 255px;
+  margin: auto;
+}
+.team-1 .social-list {
+  position: absolute;
+  bottom: 105px;
+  text-align: center;
+  z-index: 20;
+  border-radius: 5px 5px 0 0;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  width: 100%;
+  margin-left:-20px ;
+}
+
+.team-1 .social-list a {
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin: 2px;
+  border-radius: 3px;
+  text-align: center;
+  background: rgba(0,0,0,0.5);
+}
+
+.team-1 .details {
+  text-align: center;
+}
+
+
+.team-1 .details h4 a{
+  font-size: 20px;
+  font-weight: 400;
+  color: #212121;
+}
+
+.team-1 .details h4 a:hover{
+  color: #212529;
+}
+
+.team-1 .details h5 {
+  font-size: 15px;
+  color: #535353;
+  font-weight: 400;
+}
+
+.team-1 .social-list a:hover{
+  box-shadow: none;
+}
+
+.team-1 .facebook-bg:hover {
+  background: #4867aa!important;
+}
+
+.team-1 .twitter-bg:hover {
+  background: #56d7fe!important;
+}
+
+.team-1 .google-bg:hover {
+  background: #dc4e41!important;
+}
+
+.our-team-2{
+  background: rgba(0, 0, 0, 0.04) url(../img/bg-img-6.jpg) top left repeat;
+  background-size: cover;
 }
  
+/* contact us */
+.contact_form {
+    border: 1px solid #ededed;
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
+    background-color: #f2f3f5;
+    padding: 40px 30px;
+	border-radius: 2px;
+}
+
+.contact_form .form-control {
+    background-color: #fff;
+    margin-bottom: 30px;
+    border: 1px solid #ebebeb;
+    box-sizing: border-box;
+    color: #000000;
+    font-size: 16px;
+    outline: 0 none;
+    padding: 10px 25px;
+    height: 55px;
+    resize: none;
+    box-shadow: none !important;
+    width: 100%;
+}
+
+.contact_form textarea {
+    color: #bcbcbc;
+    padding: 20px 25px !important;
+    height: 160px !important;
+}
+
+.contact_form .form-control::-webkit-input-placeholder {
+    color: #bcbcbc;
+}
+
+.contact_form .form-control::-moz-placeholder {
+    opacity: 1;
+    color: #bcbcbc;
+}
+
+.contact_form .form-control::-ms-input-placeholder {
+    color: #bcbcbc;
+}
+
 /* ---------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------- */
